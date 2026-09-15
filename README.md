@@ -213,25 +213,25 @@ npx prisma migrate reset
 
 El proyecto incluye `Dockerfile` y `docker-compose.yml` para levantar la aplicación y la base de datos PostgreSQL en contenedores.
 
-# Levantar todo
+### Levantar todo
 docker compose up --build
 
-# En segundo plano
+### En segundo plano
 docker compose up -d --build
 
-# Ver logs
+### Ver logs
 docker compose logs -f api
 
-# Entrar al contenedor de la API
+### Entrar al contenedor de la API
 docker compose exec api sh
 
-# Conectarse a Postgres
+### Conectarse a Postgres
 docker compose exec postgres psql -U postgres -d curso_node_express
 
-# Detener y eliminar contenedores (mantiene datos)
+### Detener y eliminar contenedores (mantiene datos)
 docker compose down
 
-# Detener y borrar TODO (incluida la BD)
+### Detener y borrar TODO (incluida la BD)
 docker compose down -v
 
 ### Servicios definidos
