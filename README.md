@@ -1,10 +1,10 @@
-# 🐾 Mi Backend - Node.js + Express + Prisma + PostgreSQL
+# Mi Backend - Node.js + Express + Prisma + PostgreSQL
 
 API REST desarrollada con **Node.js**, **Express**, **Prisma ORM** y **PostgreSQL**, con autenticación mediante **JWT** y contraseñas encriptadas con **bcryptjs**. El proyecto está dockerizado para facilitar su despliegue.
 
 ---
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Características](#-características)
 - [Tecnologías](#-tecnologías)
