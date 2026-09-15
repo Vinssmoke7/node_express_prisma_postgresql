@@ -313,7 +313,7 @@ curl -X POST http://localhost:3000/api/pets \
 
 ## 👨‍💻 Autor
 
-Desarrollado con ❤️ por **[Ingeniero. Andres Godoy]**
+Desarrollado por **[Ingeniero. Andres Godoy]**
 
 - GitHub: [@andres.1dgm7](https://github.com/andres.1dgm7)
 - Email: andres.1dgm7@gmail.com
